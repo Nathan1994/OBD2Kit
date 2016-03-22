@@ -13,26 +13,17 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28D7ACF80DDB3853001CB0EB /* BasicScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* BasicScanViewController.m */; };
-		29AB08C512F8A5010073262E /* libOBD2Kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB08BD12F8A49F0073262E /* libOBD2Kit.a */; };
 		29AB090D12F8A8660073262E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB090C12F8A8660073262E /* CFNetwork.framework */; };
 		29AB090F12F8A8660073262E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB090E12F8A8660073262E /* CoreFoundation.framework */; };
 		29AB091112F8A8660073262E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AB091012F8A8660073262E /* CoreLocation.framework */; };
 		4E0352D01834CB690075B9BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0352CF1834CB690075B9BA /* Images.xcassets */; };
 		4E2D220618432B5E0000A1EA /* BasicScanViewController+ScanToolDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D220518432B5E0000A1EA /* BasicScanViewController+ScanToolDelegate.m */; };
 		5EF429E71C46DDF900440B8C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EF429E61C46DDF900440B8C /* Storyboard.storyboard */; };
+		97CC4FFF3376F8EE53D56789 /* libPods-BasicScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E669B2D570FBD4CB07DA57C /* libPods-BasicScan.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		29AB08BC12F8A49F0073262E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29AB08B812F8A49F0073262E /* OBD2Kit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = OBD2Kit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0E669B2D570FBD4CB07DA57C /* libPods-BasicScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* BasicScanAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicScanAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* BasicScanAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicScanAppDelegate.m; sourceTree = "<group>"; };
@@ -41,17 +32,18 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28D7ACF60DDB3853001CB0EB /* BasicScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicScanViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* BasicScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicScanViewController.m; sourceTree = "<group>"; };
-		29AB08B812F8A49F0073262E /* OBD2Kit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OBD2Kit.xcodeproj; path = ../../OBD2Kit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		29AB090C12F8A8660073262E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		29AB090E12F8A8660073262E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		29AB091012F8A8660073262E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BasicScan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicScan_Prefix.pch; sourceTree = "<group>"; };
+		444F21D7761842820CF88BF8 /* Pods-BasicScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasicScan/Pods-BasicScan.release.xcconfig"; sourceTree = "<group>"; };
 		4E0352CF1834CB690075B9BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BasicScan/Images.xcassets; sourceTree = "<group>"; };
 		4E2D220518432B5E0000A1EA /* BasicScanViewController+ScanToolDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BasicScanViewController+ScanToolDelegate.m"; sourceTree = "<group>"; };
 		5E92DD7D1C46DD31002D916F /* BasicScan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = BasicScan.entitlements; path = BasicScan/BasicScan.entitlements; sourceTree = "<group>"; };
 		5EF429E61C46DDF900440B8C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BasicScan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BasicScan-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C33DB3CD7220513D0EB50905 /* Pods-BasicScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicScan/Pods-BasicScan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +51,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29AB08C512F8A5010073262E /* libOBD2Kit.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				29AB090D12F8A8660073262E /* CFNetwork.framework in Frameworks */,
 				29AB090F12F8A8660073262E /* CoreFoundation.framework in Frameworks */,
 				29AB091112F8A8660073262E /* CoreLocation.framework in Frameworks */,
+				97CC4FFF3376F8EE53D56789 /* libPods-BasicScan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,23 +84,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29AB08B912F8A49F0073262E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				29AB08BD12F8A49F0073262E /* libOBD2Kit.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				29AB08B812F8A49F0073262E /* OBD2Kit.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A99E12D916703431AC6D908C /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -142,8 +126,18 @@
 				29AB090C12F8A8660073262E /* CFNetwork.framework */,
 				29AB090E12F8A8660073262E /* CoreFoundation.framework */,
 				29AB091012F8A8660073262E /* CoreLocation.framework */,
+				0E669B2D570FBD4CB07DA57C /* libPods-BasicScan.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99E12D916703431AC6D908C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C33DB3CD7220513D0EB50905 /* Pods-BasicScan.debug.xcconfig */,
+				444F21D7761842820CF88BF8 /* Pods-BasicScan.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,10 +157,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BasicScan" */;
 			buildPhases = (
+				DDC5C497D21174DD83B08A10 /* 📦 Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				29AB08CA12F8A54C0073262E /* Headers */,
+				E29B6170E81034B131FFED62 /* 📦 Embed Pods Frameworks */,
+				3C39F5E9D778C841327548A6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,28 +203,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 29AB08B912F8A49F0073262E /* Products */;
-					ProjectRef = 29AB08B812F8A49F0073262E /* OBD2Kit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* BasicScan */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		29AB08BD12F8A49F0073262E /* libOBD2Kit.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOBD2Kit.a;
-			remoteRef = 29AB08BC12F8A49F0073262E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -240,6 +221,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C39F5E9D778C841327548A6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicScan/Pods-BasicScan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC5C497D21174DD83B08A10 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E29B6170E81034B131FFED62 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasicScan/Pods-BasicScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -258,6 +287,7 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33DB3CD7220513D0EB50905 /* Pods-BasicScan.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -269,13 +299,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BasicScan_Prefix.pch;
-				HEADER_SEARCH_PATHS = "../../Classes/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "BasicScan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.obd2kit.sample.basicscan;
 				PRODUCT_NAME = BasicScan;
 				PROVISIONING_PROFILE = "";
@@ -284,6 +311,7 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444F21D7761842820CF88BF8 /* Pods-BasicScan.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,13 +322,10 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BasicScan_Prefix.pch;
-				HEADER_SEARCH_PATHS = "../../Classes/**";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "BasicScan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = (
-					"-all_load",
-					"-ObjC",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.obd2kit.sample.basicscan;
 				PRODUCT_NAME = BasicScan;
 				PROVISIONING_PROFILE = "";

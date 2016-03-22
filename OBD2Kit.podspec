@@ -3,10 +3,11 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "OBD2Kit iPhone Car Diagnostic Library"
 
-  s.description  = <<-DESC
-                   DESC
+  s.description      = <<-DESC
+  iOS Client
+                       DESC
 
-  s.homepage     = "https://github.com/amaechler/OBD2Kit"
+  s.homepage     = "https://github.com/Nathan1994/OBD2Kit"
   s.license     = { :type => 'Apache License, Version 2.0',
                     :text => <<-LICENSE
                       Copyright (c) 2010 Google Inc.
@@ -23,12 +24,10 @@ Pod::Spec.new do |s|
                   }
   s.authors      = "Andreas Maechler", "Michael Gile"
 
-  s.platform     = :ios, "6.0"
+  s.platform     = :ios, "8.0"
+  s.source       = { :git => "https://github.com/Nathan1994/OBD2Kit.git"}
 
-  s.source       = { :git => "https://github.com/amaechler/OBD2Kit.git",
-                     :commit => "330bf4652b9ae7e39c6c631775b66e1d4efc6544" }
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files = 'Pod/Classes/**/*'
   s.exclude_files = "Classes/GoLink serial support/**/*.{h,m}"
 
 end

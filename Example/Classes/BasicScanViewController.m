@@ -64,7 +64,7 @@
 - (void)startScan
 {
     self.statusLabel.text = @"Initializing...";
-	
+
     ELM327 *scanTool = [ELM327 scanToolWithHost:self.hostIpAddress.text andPort:35000];
 	[scanTool setUseLocation:YES];
     [scanTool setDelegate:self];
